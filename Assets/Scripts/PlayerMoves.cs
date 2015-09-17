@@ -13,6 +13,7 @@ public class PlayerMoves : MonoBehaviour {
 	public float jumpSpeed = 5.0f;
 	public Rigidbody rigidBody;
 	public GameObject referenceDoor;
+	public bool hasRope = false;
 	
 	public static int FIRST = 1;
 	public static int SECOND = 2;
