@@ -54,9 +54,12 @@
      <Compile Include="Assets\Scripts\Camtriggers34.cs" />
      <Compile Include="Assets\Scripts\Camtriggers43.cs" />
      <Compile Include="Assets\Scripts\DoorTrigger.cs" />
+     <Compile Include="Assets\Scripts\Falling.cs" />
      <Compile Include="Assets\Scripts\Horizontal.cs" />
      <Compile Include="Assets\Scripts\LoosePlatforms.cs" />
      <Compile Include="Assets\Scripts\PlayerMoves.cs" />
+     <Compile Include="Assets\Scripts\RopeCatch.cs" />
+     <Compile Include="Assets\Scripts\RopeRotate.cs" />
      <Compile Include="Assets\Scripts\RopeSpawn.cs" />
      <Compile Include="Assets\Scripts\SliderMove.cs" />
      <Compile Include="Assets\Scripts\StepTrigger.cs" />

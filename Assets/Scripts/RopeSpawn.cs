@@ -15,7 +15,13 @@ public class RopeSpawn : MonoBehaviour {
 	
 		if(player.hasRope){
 			if(Input.GetKeyDown(KeyCode.E)){
+				Debug.Log("Horizontal" + Input.GetAxis("Horizontal"));
+				Debug.Log("Vertical" + Input.GetAxis("Vertical"));
 				GameObject rope = Instantiate(ropePrefab, transform.position, Quaternion.identity) as GameObject;
+				rope.transform.LookAt(new Vector3(Input.GetAxis("Horizontal"),
+				                                  Input.GetAxis("Vertical"), 0));
+				rope.transform.Translate(Vector3.forward);
+
 			}
 
 		}
