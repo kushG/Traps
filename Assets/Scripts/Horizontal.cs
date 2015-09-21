@@ -5,8 +5,8 @@ public class Horizontal : MonoBehaviour {
 	public Transform A;
 	public Transform B;
 	public float speed = 0.2f;
-	bool movingLeft = true;
-	bool movingRight = false;
+	public bool movingLeft = true;
+	public bool movingRight = false;
 	public GameObject platform;
 
 	// Use this for initialization

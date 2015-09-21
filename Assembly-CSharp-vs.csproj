@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BulletMove.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Camtriggers12.cs" />
      <Compile Include="Assets\Scripts\Camtriggers21.cs" />
@@ -53,8 +54,11 @@
      <Compile Include="Assets\Scripts\Camtriggers32.cs" />
      <Compile Include="Assets\Scripts\Camtriggers34.cs" />
      <Compile Include="Assets\Scripts\Camtriggers43.cs" />
+     <Compile Include="Assets\Scripts\DamageCollider.cs" />
      <Compile Include="Assets\Scripts\DoorTrigger.cs" />
+     <Compile Include="Assets\Scripts\EnemyFire.cs" />
      <Compile Include="Assets\Scripts\Falling.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Horizontal.cs" />
      <Compile Include="Assets\Scripts\LoosePlatforms.cs" />
      <Compile Include="Assets\Scripts\PlayerMoves.cs" />
@@ -64,11 +68,15 @@
      <Compile Include="Assets\Scripts\SliderMove.cs" />
      <Compile Include="Assets\Scripts\StepTrigger.cs" />
      <Compile Include="Assets\Scripts\Vertical.cs" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Models\99d2906d822406ddb52a099cdc3d08b5\archibase.net.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
