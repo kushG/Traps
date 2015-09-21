@@ -17,7 +17,6 @@ public class LoosePlatforms : MonoBehaviour {
 			collided = false;
 		}
 		if (respawn) {
-			Debug.Log("In Respawn");
 			StartCoroutine(RespawnObject());
 			respawn = false;
 		}

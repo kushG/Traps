@@ -1,0 +1,12 @@
+"Start of log file."
+"D:/Users/kag4380/Traps/Assets/Models/99d2906d822406ddb52a099cdc3d08b5/Cat N260515.max"
+"Starting max loading and fbx conversion"
+window = undefined
+Warning: Could not create APEX SDK.  APEX features will not be available
+SDK Invalid Parameter: setParameter: parameter value out of range. at line 365, c:\p4\p4sw\sw\physx\PhysXSDK\2.8.5\trunk\SDKs\Core\Software\src\PhysicsSDK.cpp
+Warning: Could not create APEX SDK.  APEX features will not be available
+Switch PhysX SDK to 2.8.5
+"Settings units"
+"Before fbx export"
+"After fbx export"
+"Finished max loading and fbx conversion"

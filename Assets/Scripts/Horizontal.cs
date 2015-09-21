@@ -17,6 +17,8 @@ public class Horizontal : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		Debug.Log ("Moving Left:" + movingLeft);
+		Debug.Log ("Moving Right:" + movingRight);
 		if (movingLeft) {
 			platform.transform.Translate (0, speed * Time.deltaTime, 0);
 		}

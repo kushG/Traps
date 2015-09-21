@@ -17,7 +17,7 @@ public class Falling : MonoBehaviour {
 		if(col.collider.gameObject.tag == "Player"){
 			Rigidbody rb = gameObject.AddComponent<Rigidbody> ();
 			rb.useGravity = true;
-			rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+			rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ;
 			                                                         
 		}
 	}
