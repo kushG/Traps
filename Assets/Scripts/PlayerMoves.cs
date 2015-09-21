@@ -48,7 +48,7 @@ public class PlayerMoves : MonoBehaviour {
 		//Right
 		if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
 			transform.Translate (speed * Time.deltaTime, 0, 0);
-			GetComponent<Rigidbody>().AddForce(-Vector3.up * Time.deltaTime * 20.0f);
+			//GetComponent<Rigidbody>().AddForce(-Vector3.up * Time.deltaTime * 20.0f);
 		}
 
 		//Jump
@@ -84,7 +84,8 @@ public class PlayerMoves : MonoBehaviour {
 		if (door) {
 			// Come out of referenced door
 			if (Input.GetKeyDown (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) {
-				transform.position = referenceDoor.transform.position;
+				float y = referenceDoor.transform.position.y - transform.position.y;
+				transform.Translate(0, y, 0);
 			}
 
 		}

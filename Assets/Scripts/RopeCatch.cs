@@ -13,13 +13,13 @@ public class RopeCatch : MonoBehaviour {
 	void Update () {
 	}
 
-	void OnTriggerEnter(Collider col){
-		if (col.gameObject.tag == "Player") {
-			col.gameObject.AddComponent<HingeJoint>().connectedBody = lastObjectOnRope.GetComponent<Rigidbody>();
+	void OnCollisionEnter(Collision col){
+		if (col.collider.gameObject.tag == "Player") {
+			//col.gameObject.AddComponent<HingeJoint>().connectedBody = lastObjectOnRope.GetComponent<Rigidbody>();
 
-			col.GetComponent<Rigidbody>().useGravity = false;
-			col.transform.localPosition = playerPosition.position;
-			col.transform.parent = lastObjectOnRope.transform.parent;
+			//col.collider.GetComponent<Rigidbody>().useGravity = false;
+			col.collider.transform.position = playerPosition.position;
+			//col.collider.transform.parent = lastObjectOnRope.transform.parent;
 			//col.GetComponent<SphereCollider>().enabled = false;
 
 
